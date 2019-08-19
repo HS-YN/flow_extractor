@@ -14,7 +14,9 @@ else()
     message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
 endif()
 
+# set(OpenCV_DIR "${CMAKE_SOURCE_DIR}/opencv-4.1.0")
 
+#find_package( OpenCV REQUIRED PATHS "${CMAKE_SOURCE_DIR}/opencv-4.1.0")
 find_package( OpenCV REQUIRED )
 find_package( LibZip REQUIRED )
 
