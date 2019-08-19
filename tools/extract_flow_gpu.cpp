@@ -43,7 +43,7 @@ int main(int argc, char** argv){
 	if (output_style == "dir") {
 		writeImages(out_vec_x, xFlowFile);
 		writeImages(out_vec_y, yFlowFile);
-		writeImages(out_vec_img, imgFile);
+        //writeImages(out_vec_img, imgFile);
 	}else{
 //		LOG(INFO)<<"Writing results to Zip archives";
 		writeZipFile(out_vec_x, "x_%05d.jpg", xFlowFile+".zip");
