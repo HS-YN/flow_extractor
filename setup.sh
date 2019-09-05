@@ -1,7 +1,7 @@
 # Script file for setting up opencv-4.1.0 with GPU
 # Reference: https://github.com/open-mmlab/mmaction/issues/9
 
-wget -O OpenCV-4.1.0.zip wget https://github.com/opencv/opencv/archive/4.1.0.zip 
+wget -O OpenCV-4.1.0.zip wget https://github.com/opencv/opencv/archive/4.1.0.zip
 unzip OpenCV-4.1.0.zip
 wget -O OpenCV_contrib-4.1.0.zip https://github.com/opencv/opencv_contrib/archive/4.1.0.zip
 unzip OpenCV_contrib-4.1.0.zip
